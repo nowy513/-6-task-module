@@ -3,34 +3,34 @@ package com.kodilla.testing.Calkulator;
 public class Calkulator {
     private int a;
     private int b;
-    private int result;
-    private int result2;
+    private int resultAdd;
+    private int resultSub;
 
     public Calkulator(int a, int b){
         this.a = a;
         this.b = b;
-        this.result = result;
-        this.result2 = result2;
+        this.resultAdd = resultAdd;
+        this.resultSub = resultSub;
     }
 
-    public int getResult() {
-        return result;
+    public int getResultAdd() {
+        return resultAdd;
     }
 
-    public int getResult2() {
-        return result2;
+    public int getResultSub() {
+        return resultSub;
     }
 
     public void addition(int a, int b)
     {
-        result = a+b;
-        System.out.println("Wynik dodawania: " + result);
+        resultAdd = a+b;
+        System.out.println("Wynik dodawania: " + resultAdd);
     }
 
     public void subtraction(int a, int b)
     {
-        result2 = a-b;
-        System.out.println("Wynik odejmowania: " + result2);
+        resultSub = a-b;
+        System.out.println("Wynik odejmowania: " + resultSub);
     }
 
 }
