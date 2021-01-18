@@ -1,2 +1,4 @@
 com/kodilla/testing/TestingMain.java
  com.kodilla.testing.TestingMain
+com/kodilla/testing/Calkulator/Calkulator.java
+ com.kodilla.testing.Calkulator.Calkulator
