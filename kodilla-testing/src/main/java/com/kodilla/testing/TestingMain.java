@@ -9,15 +9,15 @@ public class TestingMain {
         calkulator.addition(3, 4);
         calkulator.subtraction(3, 8);
 
-        int result = calkulator.getA();
-        int result2 = calkulator.getB();
+        int result = calkulator.getResult();
+        int result2 = calkulator.getResult2();
 
-        if (result== calkulator.getA()){
+        if (result== calkulator.getResult()){
             System.out.println("Test ok");
         }else{
             System.out.println("ERROR!");
         }
-        if (result2== calkulator.getB()){
+        if (result2== calkulator.getResult2()){
             System.out.println("Test ok");
         }else{
             System.out.println("ERROR!");
