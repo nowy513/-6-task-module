@@ -17,14 +17,15 @@ public class TestingMain {
         System.out.println("TEST KALKULATORA!");
         System.out.println();
 
-        Calkulator calkulator = new Calkulator(3,4);
-        calkulator.addition(3, 4);
-        calkulator.subtraction(3, 8);
+        Calkulator calkulator = new Calkulator();
+        System.out.println("Wynik dodawania: " + calkulator.addition(3,4));
+        System.out.println("Wynik odejmowania: " + calkulator.subtraction(3, 8));
 
         int resultAdd = calkulator.getResultAdd();
         int resultSub = calkulator.getResultSub();
 
-        if (resultAdd== calkulator.getResultAdd()){
+
+        if (resultAdd == calkulator.getResultAdd()){
             System.out.println("Test ok");
         }else{
             System.out.println("ERROR!");

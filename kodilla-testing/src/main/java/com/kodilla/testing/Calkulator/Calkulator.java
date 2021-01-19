@@ -6,7 +6,7 @@ public class Calkulator {
     private int resultAdd;
     private int resultSub;
 
-    public Calkulator(int a, int b){
+    public Calkulator(){
         this.a = a;
         this.b = b;
         this.resultAdd = resultAdd;
@@ -21,16 +21,16 @@ public class Calkulator {
         return resultSub;
     }
 
-    public void addition(int a, int b)
+    public int addition(int a, int b)
     {
-        resultAdd = a+b;
-        System.out.println("Wynik dodawania: " + resultAdd);
+
+        return resultAdd = a+b;
     }
 
-    public void subtraction(int a, int b)
+    public int subtraction(int a, int b)
     {
-        resultSub = a-b;
-        System.out.println("Wynik odejmowania: " + resultSub);
+
+        return resultSub = a-b;
     }
 
 }
