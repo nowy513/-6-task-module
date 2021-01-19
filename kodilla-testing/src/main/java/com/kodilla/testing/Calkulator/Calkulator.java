@@ -24,13 +24,13 @@ public class Calkulator {
     public int addition(int a, int b)
     {
 
-        return resultAdd = a+b;
+        return a+b;
     }
 
     public int subtraction(int a, int b)
     {
 
-        return resultSub = a-b;
+        return a-b;
     }
 
 }

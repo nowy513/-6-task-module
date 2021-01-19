@@ -1,3 +1,5 @@
+com/kodilla/testing/forum/ForumTestSuite.java
+ com.kodilla.testing.forum.ForumTestSuite
 com/kodilla/testing/user/SimpleUser.java
  com.kodilla.testing.user.SimpleUser
 com/kodilla/testing/TestingMain.java
