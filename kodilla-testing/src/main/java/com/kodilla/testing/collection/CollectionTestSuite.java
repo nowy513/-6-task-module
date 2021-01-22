@@ -5,7 +5,7 @@ import org.junit.jupiter.api.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CollectionTestSuite extends OddNumbersExterminator {
+public class CollectionTestSuite {
 
 
 
