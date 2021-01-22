@@ -1,14 +1,13 @@
 package com.kodilla.testing.collection;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class CollectionTestSuite {
+public class CollectionTestSuite extends OddNumbersExterminator {
+
+
 
     @BeforeEach
     public void before() {
@@ -20,16 +19,44 @@ public class CollectionTestSuite {
         System.out.println("Test Case: end");
     }
 
-    @DisplayName("when given empty list, the new list should be repeated")
+    @DisplayName("When we get a normal list, we return even numbers")
 
     @Test
     void testOddNumbersExterminatorEmptyList() {
-
+//        Given
         OddNumbersExterminator exterminator = new OddNumbersExterminator();
+//        When
+        ArrayList<Integer> emptyLists = new ArrayList<>();
 
-        List<Integer> emptyLists = new ArrayList<>();
-
-        List<Integer> result = exterminator.exterminate(emptyLists);
+        List<Integer> result = emptyLists;
+        System.out.println("TEST PUSTEJ LISTY");
+//        Then
+        Assertions.assertEquals(emptyLists, result);
 
     }
+    @Test
+    void testOddNumbersExterminatorNormalList() {
+
+
+        //Given
+        OddNumbersExterminator exterminator = new OddNumbersExterminator();
+        ArrayList<Integer> normalList = new ArrayList<>();
+        normalList.add(5);
+        normalList.add(12);
+        normalList.add(11);
+        normalList.add(22);
+
+        ArrayList<Integer> evenNumbers = new ArrayList<>();
+        evenNumbers.add(12);
+        evenNumbers.add(22);
+
+        System.out.println("TEST LICZB PARZYSTYCH");
+//        When
+        ArrayList<Integer> testList = exterminator.exterminate(new ArrayList<Integer>(normalList));
+
+//        Then
+        Assertions.assertEquals(2, testList.size());
+        Assertions.assertEquals(evenNumbers, testList);
+    }
+
 }

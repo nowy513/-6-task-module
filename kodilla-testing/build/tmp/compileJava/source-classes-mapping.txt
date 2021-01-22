@@ -2,11 +2,11 @@ com/kodilla/testing/forum/ForumTestSuite.java
  com.kodilla.testing.forum.ForumTestSuite
 com/kodilla/testing/user/SimpleUser.java
  com.kodilla.testing.user.SimpleUser
-com/kodilla/testing/collection/CollectionTestSuite.java
- com.kodilla.testing.collection.CollectionTestSuite
-com/kodilla/testing/collection/OddNumbersExterminator.java
- com.kodilla.testing.collection.OddNumbersExterminator
 com/kodilla/testing/Calkulator/Calkulator.java
  com.kodilla.testing.Calkulator.Calkulator
 com/kodilla/testing/TestingMain.java
  com.kodilla.testing.TestingMain
+com/kodilla/testing/collection/CollectionTestSuite.java
+ com.kodilla.testing.collection.CollectionTestSuite
+com/kodilla/testing/collection/OddNumbersExterminator.java
+ com.kodilla.testing.collection.OddNumbersExterminator
