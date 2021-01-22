@@ -20,19 +20,18 @@ public class TestingMain {
         System.out.println();
 
         Calkulator calkulator = new Calkulator();
-        System.out.println("Wynik dodawania: " + calkulator.addition(3,4));
-        System.out.println("Wynik odejmowania: " + calkulator.subtraction(3, 8));
+        int resultAdd = calkulator.addition(3,4);
+        int resultSub = calkulator.subtraction(3, 8);
 
-        int resultAdd = calkulator.getResultAdd();
-        int resultSub = calkulator.getResultSub();
+        System.out.println("Wynik dodawania: " + resultAdd);
+        System.out.println("Wynik odejmowania: " + resultSub);
 
-
-        if (resultAdd == calkulator.getResultAdd()){
+        if (resultAdd == 7){
             System.out.println("Test ok");
         }else{
             System.out.println("ERROR!");
         }
-        if (resultSub== calkulator.getResultSub()){
+        if (resultSub == -5){
             System.out.println("Test ok");
         }else{
             System.out.println("ERROR!");

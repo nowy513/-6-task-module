@@ -9,16 +9,7 @@ public class Calkulator {
     public Calkulator(){
         this.a = a;
         this.b = b;
-        this.resultAdd = resultAdd;
-        this.resultSub = resultSub;
-    }
 
-    public int getResultAdd() {
-        return resultAdd;
-    }
-
-    public int getResultSub() {
-        return resultSub;
     }
 
     public int addition(int a, int b)
