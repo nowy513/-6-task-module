@@ -27,8 +27,10 @@ public class CollectionTestSuite {
         OddNumbersExterminator exterminator = new OddNumbersExterminator();
 //        When
         ArrayList<Integer> emptyLists = new ArrayList<>();
+        ArrayList<Integer> normalList = new ArrayList<>();
 
-        List<Integer> result = exterminator.exterminate(new ArrayList<Integer>(emptyLists));
+
+        List<Integer> result = exterminator.exterminate(normalList);
         System.out.println("TEST PUSTEJ LISTY");
 //        Then
         Assertions.assertEquals(emptyLists, result);
