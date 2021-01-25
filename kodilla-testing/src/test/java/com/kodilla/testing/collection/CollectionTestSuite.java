@@ -54,7 +54,7 @@ public class CollectionTestSuite {
 
         System.out.println("TEST LICZB PARZYSTYCH");
 //        When
-        ArrayList<Integer> testList = exterminator.exterminate(new ArrayList<Integer>(normalList));
+        ArrayList<Integer> testList = exterminator.exterminate(normalList);
 
 //        Then
         Assertions.assertEquals(2, testList.size());
