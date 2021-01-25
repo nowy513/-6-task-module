@@ -28,7 +28,7 @@ public class CollectionTestSuite {
 //        When
         ArrayList<Integer> emptyLists = new ArrayList<>();
 
-        List<Integer> result = emptyLists;
+        List<Integer> result = exterminator.exterminate(new ArrayList<Integer>(emptyLists));
         System.out.println("TEST PUSTEJ LISTY");
 //        Then
         Assertions.assertEquals(emptyLists, result);
