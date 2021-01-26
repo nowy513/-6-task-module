@@ -109,6 +109,7 @@ class BookDirectoryTestSuite {
     @Test
     void testListBooksInHandsOfOne(){
 //        Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
         List<Book> listOfOne = generateListOfNBooks(1);
         when(libraryDatabaseMock.listBooksInHandsOf(any(LibraryUser.class))).thenReturn(listOfOne);
@@ -121,6 +122,7 @@ class BookDirectoryTestSuite {
     @Test
     void testListBooksInHandsOfFive(){
 //        Given
+        LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
         List<Book> listOfFive = generateListOfNBooks(5);
         when(libraryDatabaseMock.listBooksInHandsOf(any(LibraryUser.class))).thenReturn(listOfFive);
