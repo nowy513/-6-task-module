@@ -8,7 +8,7 @@ public class ShapeCollector {
     List<Shape> shapeCollection = new ArrayList<>();
 
     public List<Shape> getShapeCollection() {
-        return null;
+        return shapeCollection;
     }
 
     public void addFigure(Shape shape){
