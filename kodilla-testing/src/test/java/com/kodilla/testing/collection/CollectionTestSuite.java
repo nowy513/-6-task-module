@@ -8,7 +8,6 @@ import java.util.List;
 public class CollectionTestSuite {
 
 
-
     @BeforeEach
     public void before() {
         System.out.println("Test Case: begin");

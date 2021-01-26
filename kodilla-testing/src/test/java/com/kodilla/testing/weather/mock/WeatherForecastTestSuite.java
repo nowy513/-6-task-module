@@ -17,16 +17,21 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 class WeatherForecastTestSuite {
+    private static int testCounter = 0;
 
     @BeforeEach
-    public void before() {
-        System.out.println("Test Case: begin");
-    }
+    public void beforeEveryTest() {
+        testCounter++;
+        System.out.println();
+        System.out.println("Preparing to execute test #" + testCounter);
+        System.out.println("Test Case: begin");}
 
     @AfterEach
     public void after() {
         System.out.println("Test Case: end");
     }
+
+
 
     @Mock
     private Temperatures temperaturesMock;
