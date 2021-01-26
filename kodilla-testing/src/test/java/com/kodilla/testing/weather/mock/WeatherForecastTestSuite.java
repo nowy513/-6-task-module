@@ -80,7 +80,7 @@ class WeatherForecastTestSuite {
 //            When
         double median = weatherForecast.medianTemperature();
 //        Then
-        Assertions.assertEquals(3, median);
+        Assertions.assertEquals(2, median);
 
 
     }

@@ -10,8 +10,8 @@ com/kodilla/testing/collection/OddNumbersExterminator.java
  com.kodilla.testing.collection.OddNumbersExterminator
 com/kodilla/testing/forum/ForumUser.java
  com.kodilla.testing.forum.ForumUser
-com/kodilla/testing/weather/stub/WeatherForecast.java
- com.kodilla.testing.weather.stub.WeatherForecast
+com/kodilla/testing/shape/ShapeCollector.java
+ com.kodilla.testing.shape.ShapeCollector
 com/kodilla/testing/forum/ForumComment.java
  com.kodilla.testing.forum.ForumComment
 com/kodilla/testing/forum/ForumPost.java
@@ -28,5 +28,5 @@ com/kodilla/testing/TestingMain.java
  com.kodilla.testing.TestingMain
 com/kodilla/testing/Calkulator/Calkulator.java
  com.kodilla.testing.Calkulator.Calkulator
-com/kodilla/testing/shape/ShapeCollector.java
- com.kodilla.testing.shape.ShapeCollector
+com/kodilla/testing/weather/stub/WeatherForecast.java
+ com.kodilla.testing.weather.stub.WeatherForecast

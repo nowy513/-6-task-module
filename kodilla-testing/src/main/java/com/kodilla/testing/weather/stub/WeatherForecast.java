@@ -51,17 +51,13 @@ int i=0;
 
         if(i%2==1)
             {
-                median = (i/2)-1;
-
+                median = ((i/2)+(i/2))/2;
             }
             else
             {
-                median = ((i/2)-1 + (i/2))/2;
-
+                median = i/2;
             }
-
-
-            return median;
+        return median;
     }
 
 
