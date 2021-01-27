@@ -1,7 +1,7 @@
 com/kodilla/testing/forum/ForumTestSuite.java
  com.kodilla.testing.forum.ForumTestSuite
-com/kodilla/testing/weather/stub/Temperatures.java
- com.kodilla.testing.weather.stub.Temperatures
+com/kodilla/testing/library/LibraryDatabase.java
+ com.kodilla.testing.library.LibraryDatabase
 com/kodilla/testing/shape/Circle.java
  com.kodilla.testing.shape.Circle
 com/kodilla/testing/forum/tdd/ForumTestSuite.java
@@ -16,8 +16,8 @@ com/kodilla/testing/forum/ForumComment.java
  com.kodilla.testing.forum.ForumComment
 com/kodilla/testing/forum/ForumPost.java
  com.kodilla.testing.forum.ForumPost
-com/kodilla/testing/weather/stub/WeatherForecast.java
- com.kodilla.testing.weather.stub.WeatherForecast
+com/kodilla/testing/library/BookLibrary.java
+ com.kodilla.testing.library.BookLibrary
 com/kodilla/testing/shape/Shape.java
  com.kodilla.testing.shape.Shape
 com/kodilla/testing/shape/Triangle.java
@@ -34,7 +34,7 @@ com/kodilla/testing/library/LibraryUser.java
  com.kodilla.testing.library.LibraryUser
 com/kodilla/testing/library/Book.java
  com.kodilla.testing.library.Book
-com/kodilla/testing/library/LibraryDatabase.java
- com.kodilla.testing.library.LibraryDatabase
-com/kodilla/testing/library/BookLibrary.java
- com.kodilla.testing.library.BookLibrary
+com/kodilla/testing/weather/stub/Temperatures.java
+ com.kodilla.testing.weather.stub.Temperatures
+com/kodilla/testing/weather/stub/WeatherForecast.java
+ com.kodilla.testing.weather.stub.WeatherForecast

@@ -75,17 +75,18 @@ class WeatherForecastTestSuite {
     void testMedianTemperature(){
 //        Given
             Map<String, Double> temperaturesMap = new HashMap<>();
-            temperaturesMap.put("Wroclaw", 24.8);
-            temperaturesMap.put("Warszawa", 25.2);
             temperaturesMap.put("Rzeszow", 25.5);
             temperaturesMap.put("Krakow", 26.2);
+            temperaturesMap.put("Wroclaw", 24.8);
+            temperaturesMap.put("Warszawa", 25.2);
             temperaturesMap.put("Gdansk", 26.1);
             when(temperaturesMock.getTemperatures()).thenReturn(temperaturesMap);
             WeatherForecast weatherForecast = new WeatherForecast(temperaturesMock);
+
 //            When
         double median = weatherForecast.medianTemperature();
 //        Then
-        Assertions.assertEquals(2, median);
+        Assertions.assertEquals(25.5, median);
 
 
     }
