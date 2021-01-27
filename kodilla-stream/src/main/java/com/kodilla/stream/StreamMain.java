@@ -8,6 +8,6 @@ public class StreamMain {
         System.out.println("Welcome to module 7 – Stream");
 
         SaySomething saySomething = new SaySomething();
-        saySomething.say();
+//        saySomething.say();
     }
 }
