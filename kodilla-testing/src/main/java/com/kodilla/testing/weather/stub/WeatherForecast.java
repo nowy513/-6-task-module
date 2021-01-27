@@ -52,7 +52,7 @@ public class WeatherForecast {
 
         Collections.sort(medianList);
 
-    int medianIndex = 0;
+    int median = 0;
 
         if(medianList.size()%2==1)
             {
