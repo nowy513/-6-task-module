@@ -1,13 +1,15 @@
 package com.kodilla.stream;
 
-import com.kodilla.stream.lambda.SaySomething;
+import com.kodilla.stream.beautifier.PoemBeautifier;
 
 public class StreamMain {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to module 7 – Stream");
+        PoemBeautifier poemBeautifier = new PoemBeautifier();
 
-        SaySomething saySomething = new SaySomething();
-        saySomething.say();
+        poemBeautifier.beautify("First sample text", " ABC ", ((a, b) -> b+a+b));
+        poemBeautifier.secondBeautify("SMALL LETTERS", ".TXT",((a, b) -> a+b));
+        poemBeautifier.thirdBeautify("Number of charcter", " - ", ((a, b) -> a+b));
     }
+
 }
