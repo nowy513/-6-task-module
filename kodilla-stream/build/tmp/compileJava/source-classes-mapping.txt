@@ -58,3 +58,11 @@ com/kodilla/stream/beautifier/PoemBeautifier.java
  com.kodilla.stream.beautifier.PoemBeautifier
 com/kodilla/stream/world/World.java
  com.kodilla.stream.world.World
+com/kodilla/stream/portfolio/Board.java
+ com.kodilla.stream.portfolio.Board
+com/kodilla/stream/portfolio/TaskList.java
+ com.kodilla.stream.portfolio.TaskList
+com/kodilla/stream/portfolio/Task.java
+ com.kodilla.stream.portfolio.Task
+com/kodilla/stream/portfolio/User.java
+ com.kodilla.stream.portfolio.User
