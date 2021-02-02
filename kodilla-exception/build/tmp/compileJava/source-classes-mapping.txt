@@ -12,3 +12,15 @@ com/kodilla/exception/io/FileReader.java
  com.kodilla.exception.io.FileReader
 com/kodilla/exception/test/ExceptionHandling.java
  com.kodilla.exception.test.ExceptionHandling
+com/kodilla/exception/nullpointer/User.java
+ com.kodilla.exception.nullpointer.User
+com/kodilla/exception/nullpointer/MessageSender.java
+ com.kodilla.exception.nullpointer.MessageSender
+com/kodilla/exception/nullpointer/NullPointerExceptionRunner.java
+ com.kodilla.exception.nullpointer.NullPointerExceptionRunner
+com/kodilla/exception/nullpointer/MessageNotSentException.java
+ com.kodilla.exception.nullpointer.MessageNotSentException
+com/kodilla/exception/index/VideoCollector.java
+ com.kodilla.exception.index.VideoCollector
+com/kodilla/exception/index/IndexExceptionRunner.java
+ com.kodilla.exception.index.IndexExceptionRunner
