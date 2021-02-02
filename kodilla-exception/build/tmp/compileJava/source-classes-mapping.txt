@@ -24,3 +24,11 @@ com/kodilla/exception/index/VideoCollector.java
  com.kodilla.exception.index.VideoCollector
 com/kodilla/exception/index/IndexExceptionRunner.java
  com.kodilla.exception.index.IndexExceptionRunner
+com/kodilla/exception/test/Flight.java
+ com.kodilla.exception.test.Flight
+com/kodilla/exception/test/RouteNotFoundException.java
+ com.kodilla.exception.test.RouteNotFoundException
+com/kodilla/exception/test/FlightSearch.java
+ com.kodilla.exception.test.FlightSearch
+com/kodilla/exception/test/Application.java
+ com.kodilla.exception.test.Application
