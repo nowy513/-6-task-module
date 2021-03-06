@@ -5,9 +5,8 @@ public class Application {
     public static void main(String[] args) {
         MovieStore movieStore = new MovieStore();
         movieStore.getMovies().entrySet().stream()
-                .map(stringListEntry -> stringListEntry.getValue())
-                .flatMap(stringList -> stringList.stream())
-                .map(title -> title + "!")
+                .flatMap(e -> e.getValue().stream())
+                .map(e -> e.toString() + "!")
                 .forEach(System.out::print);
     }
 }
