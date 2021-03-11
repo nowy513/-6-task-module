@@ -1,7 +1,7 @@
 com/kodilla/good/patterns/challenges/MovieStore.java
  com.kodilla.good.patterns.challenges.MovieStore
-com/kodilla/good/patterns/challenges/Application.java
- com.kodilla.good.patterns.challenges.Application
+com/kodilla/good/patterns/challenges/service/ProductOrderService.java
+ com.kodilla.good.patterns.challenges.service.ProductOrderService
 com/kodilla/good/patterns/challenges/service/User.java
  com.kodilla.good.patterns.challenges.service.User
 com/kodilla/good/patterns/challenges/service/InformationService.java
@@ -24,5 +24,5 @@ com/kodilla/good/patterns/challenges/service/Application.java
  com.kodilla.good.patterns.challenges.service.Application
 com/kodilla/good/patterns/challenges/service/OrderService.java
  com.kodilla.good.patterns.challenges.service.OrderService
-com/kodilla/good/patterns/challenges/service/ProductOrderService.java
- com.kodilla.good.patterns.challenges.service.ProductOrderService
+com/kodilla/good/patterns/challenges/Application.java
+ com.kodilla.good.patterns.challenges.Application
