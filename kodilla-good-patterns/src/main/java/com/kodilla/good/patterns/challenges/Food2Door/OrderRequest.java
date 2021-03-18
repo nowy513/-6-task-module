@@ -3,13 +3,13 @@ package com.kodilla.good.patterns.challenges.Food2Door;
 import java.time.LocalDate;
 
 public class OrderRequest{
-    private Distributor distributor;
+    private Shop shop;
     private LocalDate orderDay;
     private Product product;
     private int numberOrder;
 
-    public OrderRequest(Distributor distributor, LocalDate orderDay, Product product, int numberOrder) {
-        this.distributor = distributor;
+    public OrderRequest(Shop shop, LocalDate orderDay, Product product, int numberOrder) {
+        this.shop = shop;
         this.orderDay = orderDay;
         this.product = product;
         this.numberOrder = numberOrder;
@@ -27,7 +27,7 @@ public class OrderRequest{
         return numberOrder;
     }
 
-    public Distributor getDistributor() {
-        return distributor;
+    public Shop getDistributor() {
+        return shop;
     }
 }

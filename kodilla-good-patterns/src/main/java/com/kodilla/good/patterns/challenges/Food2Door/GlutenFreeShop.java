@@ -1,6 +1,6 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-public class GlutenFreeShop implements Distributor {
+public class GlutenFreeShop implements Shop {
 
     private final String name = "Gluten Free Shop";
 
@@ -16,7 +16,7 @@ public class GlutenFreeShop implements Distributor {
     }
 
     @Override
-    public String getDistributorName() {
+    public String getShopName() {
         return name;
     }
 }

@@ -9,7 +9,7 @@ public class Order {
 
         public OrderRequest order1() {
 
-                Distributor extraFoodShop = new ExtraFoodShop();
+                Shop extraFoodShop = new ExtraFoodShop();
                 Product batonik = new Product("Princessa", 50, 1.20);
                 LocalDate orderDay = LocalDate.of(2021, 04, 20);
                 int numberOrder = 5928;
