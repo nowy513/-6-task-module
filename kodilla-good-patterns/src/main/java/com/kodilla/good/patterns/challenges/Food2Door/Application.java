@@ -5,7 +5,7 @@ public class Application {
         Order order = new Order();
         OrderRequest orderRequest1 = order.order1();
 
-        ExtraFoodShop extraFoodShop = new ExtraFoodShop("Extra Food Shop");
+        ExtraFoodShop extraFoodShop = new ExtraFoodShop();
         extraFoodShop.process(orderRequest1);
     }
 

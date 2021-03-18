@@ -1,14 +1,22 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-public class GlutenFreeShop extends Shop{
+public class GlutenFreeShop implements Distributor {
 
-    public GlutenFreeShop(String name) {
-        super(name);
+    private final String name = "Gluten Free Shop";
+
+    @Override
+    public OrderRequest process(OrderRequest orderRequest) {
+        System.out.println("Zamówienie do " + name + " o numerze: " + orderRequest.getNumberOrder() + " zostało przyjęte " + orderRequest.getOrderDay());
+        System.out.println();
+        System.out.println("Zamówiono: " + orderRequest.getProduct().getQuantity() + "x " + orderRequest.getProduct().getName() + " cena za sztuke: " + orderRequest.getProduct().getPrice() + " pln");
+        System.out.println();
+        System.out.println("Koszt zamowienia: " + orderRequest.getProduct().getQuantity() * orderRequest.getProduct().getPrice() + " pln");
+        System.out.println();
+        return new OrderRequest(orderRequest.getDistributor(), orderRequest.getOrderDay(), orderRequest.getProduct(),orderRequest.getNumberOrder());
     }
 
     @Override
-    void process(OrderRequest orderRequest) {
-    informationService(orderRequest);
-    informationDelivery(orderRequest, 4);
+    public String getDistributorName() {
+        return name;
     }
 }
