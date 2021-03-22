@@ -1,0 +1,8 @@
+com/kodilla/patterns/PatternsRunner.java
+ com.kodilla.patterns.PatternsRunner
+com/kodilla/patterns/singleton/SettingsFileEngine.java
+ com.kodilla.patterns.singleton.SettingsFileEngine
+com/kodilla/patterns/singleton/Logger.java
+ com.kodilla.patterns.singleton.Logger
+com/kodilla/patterns/singleton/LoggerInstance.java
+ com.kodilla.patterns.singleton.LoggerInstance
