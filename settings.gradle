@@ -6,4 +6,5 @@ findProject(':../kodilla-course/kodilla-stream')?.name = 'kodilla-stream'
 include 'kodilla-good-patterns'
 include 'kodilla-spring-intro'
 include 'kodilla-spring'
+include 'kodilla-spring-web'
 
