@@ -13,12 +13,12 @@ public class LibraryTestSuite {
     @Test
     void testGetBooks() {
 //        Given
-        Library library = new Library("Library1");
+        Library library = new Library("Library number 1");
         IntStream.iterate(1, n -> n + 1)
                 .limit(5)
                 .forEach(n -> library.getBooks().add(new Book("Book" + n, "Author" + n, LocalDate.now())));
 
-
+//      making a shallow clone of object library
         Library clonedLibrary = null;
         try {
             clonedLibrary = library.shallowCopy();
@@ -27,6 +27,7 @@ public class LibraryTestSuite {
             System.out.println(e);
         }
 
+//        making a deep clone of object library
         Library deepClonedLibrary = null;
         try {
             deepClonedLibrary = library.deepCopy();
