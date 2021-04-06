@@ -72,3 +72,11 @@ com/kodilla/patterns/factory/tasks/ShoppingTask.java
  com.kodilla.patterns.factory.tasks.ShoppingTask
 com/kodilla/patterns/factory/tasks/TaskFactory.java
  com.kodilla.patterns.factory.tasks.TaskFactory
+com/kodilla/patterns/builder/pizza/Pizza.java
+ com.kodilla.patterns.builder.pizza.Pizza
+ com.kodilla.patterns.builder.pizza.Pizza$1
+ com.kodilla.patterns.builder.pizza.Pizza$PizzaBuilder
+com/kodilla/patterns/builder/bigmac/Bigmac.java
+ com.kodilla.patterns.builder.bigmac.Bigmac
+ com.kodilla.patterns.builder.bigmac.Bigmac$1
+ com.kodilla.patterns.builder.bigmac.Bigmac$BigmacBuilder
