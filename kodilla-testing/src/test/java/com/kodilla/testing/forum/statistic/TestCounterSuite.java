@@ -27,7 +27,7 @@ public class TestCounterSuite {
     }
 
     @Test
-    public void statisticsWithMock1() {
+    public void testPostIsZeroAndUserIsHundred() {
 
 //        Given
         Statistics statisticsMock = mock(Statistics.class);
@@ -46,12 +46,12 @@ public class TestCounterSuite {
         int totalNumberOfUsers = 100;
         counter.calculateAdvStatistics(statisticsMock);
 //        Then
-        Assert.assertEquals(totalNumberOfUsers, counter.usersNumber);
+        Assert.assertEquals(totalNumberOfUsers, counter.getUsersNumber());
         counter.showStatistics();
     }
 
     @Test
-    public void statisticsWithMock2() throws java.lang.ArithmeticException {
+    public void testPostsIsThousandAndUserIsZero() throws java.lang.ArithmeticException {
 
 //        Given
         Statistics statisticsMock = mock(Statistics.class);
@@ -69,12 +69,12 @@ public class TestCounterSuite {
         int totalNumberOfUsers = 0;
         counter.calculateAdvStatistics(statisticsMock);
 //        Then
-        Assert.assertEquals(totalNumberOfUsers, counter.usersNumber);
+        Assert.assertEquals(totalNumberOfUsers, counter.getUsersNumber());
         counter.showStatistics();
     }
 
     @Test
-    public void statisticsWithMock3() throws java.lang.ArithmeticException {
+    public void testCommentsIsZero() throws java.lang.ArithmeticException {
 
 //        Given
         Statistics statisticsMock = mock(Statistics.class);
@@ -92,13 +92,13 @@ public class TestCounterSuite {
         int totalNumberOfUsers = 10;
         counter.calculateAdvStatistics(statisticsMock);
 //        Then
-        Assert.assertEquals(totalNumberOfUsers, counter.usersNumber);
+        Assert.assertEquals(totalNumberOfUsers, counter.getUsersNumber());
         counter.showStatistics();
     }
 
 
     @Test
-    public void statisticsWithMock4() {
+    public void testCommentsAreLessThanPost() {
 
 //        Given
         Statistics statisticsMock = mock(Statistics.class);
@@ -128,7 +128,7 @@ public class TestCounterSuite {
     }
 
     @Test
-    public void statisticsWithMock5() {
+    public void testCommentsAreMoreThanPost() {
 
 //        Given
         Statistics statisticsMock = mock(Statistics.class);
@@ -154,7 +154,7 @@ public class TestCounterSuite {
         counter.calculateAdvStatistics(statisticsMock);
 
 //        Then
-        Assert.assertTrue(counter.commentsNumber > counter.postsNumber);
+        Assert.assertTrue(counter.getCommentsNumber() > counter.getPostsNumber());
         counter.showStatistics();
     }
 }

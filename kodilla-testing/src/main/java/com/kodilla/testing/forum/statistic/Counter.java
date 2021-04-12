@@ -1,12 +1,12 @@
 package com.kodilla.testing.forum.statistic;
 
 public class Counter {
-    int usersNumber;
-    int postsNumber;
-    int commentsNumber;
-    double averagePostUser;
-    double averageCommentUser;
-    double averageCommentPost;
+    private int usersNumber;
+    private int postsNumber;
+    private int commentsNumber;
+    private double averagePostUser;
+    private double averageCommentUser;
+    private double averageCommentPost;
 
     public int getUsersNumber() {
         return usersNumber;
