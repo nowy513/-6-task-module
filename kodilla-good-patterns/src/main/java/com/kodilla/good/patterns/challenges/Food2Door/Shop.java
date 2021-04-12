@@ -1,8 +1,10 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
+import java.util.List;
+
 public interface Shop {
 
-    OrderRequest process(OrderRequest orderRequest);
-    String getShopName();
+    String process();
+    List productList();
 
 }

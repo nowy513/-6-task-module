@@ -1,33 +1,21 @@
 package com.kodilla.good.patterns.challenges.Food2Door;
 
-import java.time.LocalDate;
-
 public class OrderRequest{
-    private Shop shop;
-    private LocalDate orderDay;
-    private Product product;
-    private int numberOrder;
 
-    public OrderRequest(Shop shop, LocalDate orderDay, Product product, int numberOrder) {
-        this.shop = shop;
-        this.orderDay = orderDay;
-        this.product = product;
-        this.numberOrder = numberOrder;
-    }
+    public static final String EXTRA_FOOD_SHOP = "ExtraFoodShop";
+    public static final String HEALTHY_SHOP = "HealthyShop";
+    public static final String GLUTEN_FREE_SHOP = "GlutenFreeShop";
 
-    public LocalDate getOrderDay() {
-        return orderDay;
-    }
-
-    public Product getProduct() {
-        return product;
-    }
-
-    public int getNumberOrder() {
-        return numberOrder;
-    }
-
-    public Shop getDistributor() {
-        return shop;
+    public Contractor getContractor(String conName) {
+        if (conName.equalsIgnoreCase(EXTRA_FOOD_SHOP)) {
+            return new ExtraFoodShop(EXTRA_FOOD_SHOP);
+        } else if (conName.equalsIgnoreCase(HEALTHY_SHOP)) {
+            return new HealthyShop(HEALTHY_SHOP);
+        } else if (conName.equalsIgnoreCase(GLUTEN_FREE_SHOP)) {
+            return new GlutenFreeShop(GLUTEN_FREE_SHOP);
+        } else {
+            System.out.println("Warning, no contractor selected.");
+            return null;
+        }
     }
 }
