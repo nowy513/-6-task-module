@@ -6,7 +6,6 @@ public class Application {
     public static void main(String[] args){
         Order order = new Order("Tomatos",100);
 
-
         OrderProcess orderProcess = new OrderProcess();
         orderProcess.buy(HEALTHY_SHOP, order);
     }
