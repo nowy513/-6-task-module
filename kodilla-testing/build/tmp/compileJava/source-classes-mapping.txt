@@ -38,3 +38,7 @@ com/kodilla/testing/forum/ForumUser.java
  com.kodilla.testing.forum.ForumUser
 com/kodilla/testing/weather/stub/WeatherForecast.java
  com.kodilla.testing.weather.stub.WeatherForecast
+com/kodilla/testing/forum/statistic/Statistics.java
+ com.kodilla.testing.forum.statistic.Statistics
+com/kodilla/testing/forum/statistic/Counter.java
+ com.kodilla.testing.forum.statistic.Counter
