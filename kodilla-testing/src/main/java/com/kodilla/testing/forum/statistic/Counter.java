@@ -53,11 +53,11 @@ public class Counter {
     }
 
     public void showStatistics() {
-        System.out.println("Number of users: " + usersNumber);
-        System.out.println("Number of posts: " + postsNumber);
-        System.out.println("Number of coments: " + commentsNumber);
-        System.out.println("Average posts per User is " + averagePostUser);
-        System.out.println("Average comments per User is " + averageCommentUser);
-        System.out.println("Average comments per Post is " + averageCommentPost);
+        System.out.println("Number of users: " + getUsersNumber());
+        System.out.println("Number of posts: " + getPostsNumber());
+        System.out.println("Number of coments: " + getCommentsNumber());
+        System.out.println("Average posts per User is " + getaveragePostUser());
+        System.out.println("Average comments per User is " + getaverageCommentUser());
+        System.out.println("Average comments per Post is " + getaverageCommentPost());
     }
 }
