@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-13T14:08:24" hostname="DESKTOP-8LN2CGQ" time="0.03">
+  <properties/>
+  <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.03"/>
+  <system-out><![CDATA[Oh no! Something went wrong! Error:java.nio.file.NoSuchFileException: tego-pliku-nie-ma.txt
+I am gonna be here... always!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

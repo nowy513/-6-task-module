@@ -1,17 +1,15 @@
 com/kodilla/good/patterns/challenges/airport/User.java
  com.kodilla.good.patterns.challenges.airport.User
-com/kodilla/good/patterns/challenges/Application.java
- com.kodilla.good.patterns.challenges.Application
+com/kodilla/good/patterns/challenges/Food2Door/Order.java
+ com.kodilla.good.patterns.challenges.Food2Door.Order
 com/kodilla/good/patterns/challenges/airport/AviationCompany.java
  com.kodilla.good.patterns.challenges.airport.AviationCompany
-com/kodilla/good/patterns/challenges/MovieStore.java
- com.kodilla.good.patterns.challenges.MovieStore
 com/kodilla/good/patterns/challenges/service/InformationService.java
  com.kodilla.good.patterns.challenges.service.InformationService
+com/kodilla/good/patterns/challenges/Food2Door/Contractor.java
+ com.kodilla.good.patterns.challenges.Food2Door.Contractor
 com/kodilla/good/patterns/challenges/service/OrderRepository.java
  com.kodilla.good.patterns.challenges.service.OrderRepository
-com/kodilla/good/patterns/challenges/service/GameOrderRepository.java
- com.kodilla.good.patterns.challenges.service.GameOrderRepository
 com/kodilla/good/patterns/challenges/service/GameInformationService.java
  com.kodilla.good.patterns.challenges.service.GameInformationService
 com/kodilla/good/patterns/challenges/service/User.java
@@ -20,8 +18,8 @@ com/kodilla/good/patterns/challenges/service/Application.java
  com.kodilla.good.patterns.challenges.service.Application
 com/kodilla/good/patterns/challenges/service/ProductOrderService.java
  com.kodilla.good.patterns.challenges.service.ProductOrderService
-com/kodilla/good/patterns/challenges/service/GameOrderRequest.java
- com.kodilla.good.patterns.challenges.service.GameOrderRequest
+com/kodilla/good/patterns/challenges/Food2Door/ExtraFoodShop.java
+ com.kodilla.good.patterns.challenges.Food2Door.ExtraFoodShop
 com/kodilla/good/patterns/challenges/service/OrderDto.java
  com.kodilla.good.patterns.challenges.service.OrderDto
 com/kodilla/good/patterns/challenges/airport/FlightSearch.java
@@ -38,21 +36,23 @@ com/kodilla/good/patterns/challenges/airport/Application.java
  com.kodilla.good.patterns.challenges.airport.Application
 com/kodilla/good/patterns/challenges/airport/Airport.java
  com.kodilla.good.patterns.challenges.airport.Airport
-com/kodilla/good/patterns/challenges/Food2Door/Shop.java
- com.kodilla.good.patterns.challenges.Food2Door.Shop
-com/kodilla/good/patterns/challenges/Food2Door/Order.java
- com.kodilla.good.patterns.challenges.Food2Door.Order
-com/kodilla/good/patterns/challenges/Food2Door/Application.java
- com.kodilla.good.patterns.challenges.Food2Door.Application
 com/kodilla/good/patterns/challenges/Food2Door/HealthyShop.java
  com.kodilla.good.patterns.challenges.Food2Door.HealthyShop
 com/kodilla/good/patterns/challenges/Food2Door/OrderRequest.java
  com.kodilla.good.patterns.challenges.Food2Door.OrderRequest
-com/kodilla/good/patterns/challenges/Food2Door/Contractor.java
- com.kodilla.good.patterns.challenges.Food2Door.Contractor
+com/kodilla/good/patterns/challenges/service/GameOrderRequest.java
+ com.kodilla.good.patterns.challenges.service.GameOrderRequest
+com/kodilla/good/patterns/challenges/Food2Door/Shop.java
+ com.kodilla.good.patterns.challenges.Food2Door.Shop
 com/kodilla/good/patterns/challenges/Food2Door/OrderProcess.java
  com.kodilla.good.patterns.challenges.Food2Door.OrderProcess
 com/kodilla/good/patterns/challenges/Food2Door/GlutenFreeShop.java
  com.kodilla.good.patterns.challenges.Food2Door.GlutenFreeShop
-com/kodilla/good/patterns/challenges/Food2Door/ExtraFoodShop.java
- com.kodilla.good.patterns.challenges.Food2Door.ExtraFoodShop
+com/kodilla/good/patterns/challenges/Application.java
+ com.kodilla.good.patterns.challenges.Application
+com/kodilla/good/patterns/challenges/Food2Door/Application.java
+ com.kodilla.good.patterns.challenges.Food2Door.Application
+com/kodilla/good/patterns/challenges/service/GameOrderRepository.java
+ com.kodilla.good.patterns.challenges.service.GameOrderRepository
+com/kodilla/good/patterns/challenges/MovieStore.java
+ com.kodilla.good.patterns.challenges.MovieStore
