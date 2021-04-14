@@ -67,7 +67,7 @@ public class CompanyDaoTestSuite {
     }
 
     @Test
-    void testNamedQueries(){
+    void testNamedQueries() {
 
 //            Given
         Employee johnSmith = new Employee("John", "Smith");
@@ -91,17 +91,25 @@ public class CompanyDaoTestSuite {
         lindaKovalsky.getCompanies().add(greyMatter);
 
         companyDao.save(softwareMachine);
+        int softwareMachineId = softwareMachine.getId();
         companyDao.save(dataMaesters);
+        int dataMaestersId = dataMaesters.getId();
         companyDao.save(greyMatter);
+        int greyMatterId = greyMatter.getId();
 
 //        When
 
         List<Employee> employeeLastname = employeeDao.retrieveEmployeeLastname("Clarkson");
         List<Company> companyName = companyDao.charactersOfCompany("Sof");
 
-//        then
+        //Than
         assertEquals(1, employeeLastname.size());
         assertEquals(1, companyName.size());
+
+//        CleanUp
+        companyDao.deleteById(softwareMachineId);
+        companyDao.deleteById(dataMaestersId);
+        companyDao.deleteById(greyMatterId);
     }
 
 }
