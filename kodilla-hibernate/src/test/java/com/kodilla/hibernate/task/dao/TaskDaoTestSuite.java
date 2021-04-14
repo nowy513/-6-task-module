@@ -1,10 +1,12 @@
 package com.kodilla.hibernate.task.dao;
 
 import com.kodilla.hibernate.task.Task;
+import com.kodilla.hibernate.task.TaskFinancialDetails;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,7 +22,7 @@ class TaskDaoTestSuite {
     @Test
     void testTaskDaoSave() {
         //Given
-        Task task = new Task(DESCRIPTION, 7);
+        Task task = new Task(DESCRIPTION, 1);
 
         //When
         taskDao.save(task);
@@ -37,7 +39,7 @@ class TaskDaoTestSuite {
     @Test
     void testTaskDaoFindByDuration() {
         //Given
-        Task task = new Task(DESCRIPTION, 7);
+        Task task = new Task(DESCRIPTION, 1);
         taskDao.save(task);
         int duration = task.getDuration();
 
@@ -45,10 +47,27 @@ class TaskDaoTestSuite {
         List<Task> readTasks = taskDao.findByDuration(duration);
 
         //Then
-        assertEquals(7, readTasks.size());
+        assertEquals(1, readTasks.size());
 
         //CleanUp
         int id = readTasks.get(0).getId();
+        taskDao.deleteById(id);
+    }
+
+    @Test
+    void testTaskDaoSaveWithFinancialDetails(){
+//        Given
+        Task task = new Task(DESCRIPTION, 30);
+        task.setTaskFinancialDetails(new TaskFinancialDetails(new BigDecimal(120), false));
+
+//        When
+        taskDao.save(task);
+        int id = task.getId();
+
+//        Then
+        assertNotEquals(0, id);
+
+//        Cleanup
         taskDao.deleteById(id);
     }
 }
