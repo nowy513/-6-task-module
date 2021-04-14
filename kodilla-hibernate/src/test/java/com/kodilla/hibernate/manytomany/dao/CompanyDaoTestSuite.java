@@ -99,7 +99,7 @@ public class CompanyDaoTestSuite {
 
 //        When
 
-        List<Employee> employeeLastname = employeeDao.retrieveEmployeeLastname("Clarkson");
+        List<Employee> employeeLastname = employeeDao.retrieveEmployeeLastname("Smith");
         List<Company> companyName = companyDao.charactersOfCompany("Sof");
 
         //Than
