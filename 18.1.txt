@@ -1,6 +1,6 @@
 {
-"carName" = Corolla
-"carBrand" = Toyota
+"carName" = "Corolla"
+"carBrand" = "Toyota"
 "carSeat":[
 	{"color":"red", "material": "skin"}
 	{"color":"red", "material": "skin"}
