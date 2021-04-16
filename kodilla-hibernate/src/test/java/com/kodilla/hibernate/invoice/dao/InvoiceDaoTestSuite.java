@@ -24,9 +24,9 @@ public class InvoiceDaoTestSuite {
     private ItemDao itemDao;
 
     @Test
-    void testInvoiceDaoSave(){
+    void testInvoiceDaoSave() {
 //        Given
-        Item item = new Item(new BigDecimal(10),5,new BigDecimal(10));
+        Item item = new Item(new BigDecimal(10), 5, new BigDecimal(10));
         Invoice invoice = new Invoice("2354");
         Product product = new Product("Car");
 
@@ -51,15 +51,14 @@ public class InvoiceDaoTestSuite {
         assertNotEquals(0, itemId);
 
 //        CleanUp
-//        try {
-//        invoiceDao.deleteById(invoiceId);
-//        productDao.deleteById(productId);
-//        itemDao.deleteById(itemId);
-//        }catch (Exception e){
+        try {
+            invoiceDao.deleteById(invoiceId);
+            productDao.deleteById(productId);
+            itemDao.deleteById(itemId);
+        } catch (Exception e) {
 //            do nothing
         }
 
 
-
-
+    }
 }
