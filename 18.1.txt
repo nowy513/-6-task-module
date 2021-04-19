@@ -1,11 +1,11 @@
 {
-"carName" = "Corolla"
-"carBrand" = "Toyota"
+"carName" = "Corolla",
+"carBrand" = "Toyota",
 "carSeat":[
-	{"color":"red", "material": "skin"}
-	{"color":"red", "material": "skin"}
-	{"color":"blue", "material": "skin"}
+	{"color":"red", "material": "skin"},
+	{"color":"red", "material": "skin"},
+	{"color":"blue", "material": "skin"},
 	{"color":"blue", "material": "skin"}
 ]
-"engineCapacity" = 2.0
+"engineCapacity" = 2.0,
 }
