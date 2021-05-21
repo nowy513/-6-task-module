@@ -18,3 +18,37 @@ com/kodilla/patterns2/facade/api/ItemDto.java
  com.kodilla.patterns2.facade.api.ItemDto
 com/kodilla/patterns2/facade/api/OrderFacade.java
  com.kodilla.patterns2.facade.api.OrderFacade
+com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java
+ com.kodilla.patterns2.decorator.taxiportal.TaxiOrder
+com/kodilla/patterns2/decorator/pizza/PizzaOrder.java
+ com.kodilla.patterns2.decorator.pizza.PizzaOrder
+com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java
+ com.kodilla.patterns2.decorator.taxiportal.BasicTaxiOrder
+com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.AbstractTaxiOrderDecorator
+com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.TaxiNetworkOrderDecorator
+com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.UberNetworkOrderDecorator
+com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.ChildSeatDecorator
+com/kodilla/patterns2/decorator/taxiportal/VipCarDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.VipCarDecorator
+com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.ExpressDecorator
+com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java
+ com.kodilla.patterns2.decorator.taxiportal.MyTaxiNetworkOrderDecorator
+com/kodilla/patterns2/decorator/pizza/SalamiDecorator.java
+ com.kodilla.patterns2.decorator.pizza.SalamiDecorator
+com/kodilla/patterns2/decorator/pizza/CheeseDecorator.java
+ com.kodilla.patterns2.decorator.pizza.CheeseDecorator
+com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrderDecorator.java
+ com.kodilla.patterns2.decorator.pizza.AbstractPizzaOrderDecorator
+com/kodilla/patterns2/decorator/pizza/HamDecorator.java
+ com.kodilla.patterns2.decorator.pizza.HamDecorator
+com/kodilla/patterns2/decorator/pizza/PepperDecorator.java
+ com.kodilla.patterns2.decorator.pizza.PepperDecorator
+com/kodilla/patterns2/decorator/pizza/MushroomsDecorator.java
+ com.kodilla.patterns2.decorator.pizza.MushroomsDecorator
+com/kodilla/patterns2/decorator/pizza/BasicPizzaOrder.java
+ com.kodilla.patterns2.decorator.pizza.BasicPizzaOrder
