@@ -34,8 +34,8 @@ com/kodilla/patterns2/decorator/pizza/AbstractPizzaOrderDecorator.java
  com.kodilla.patterns2.decorator.pizza.AbstractPizzaOrderDecorator
 com/kodilla/patterns2/facade/api/OrderProcessingException.java
  com.kodilla.patterns2.facade.api.OrderProcessingException
-com/kodilla/patterns2/facade/api/OrderFacade.java
- com.kodilla.patterns2.facade.api.OrderFacade
+com/kodilla/patterns2/aop/calculator/Calculator.java
+ com.kodilla.patterns2.aop.calculator.Calculator
 com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java
  com.kodilla.patterns2.decorator.taxiportal.ChildSeatDecorator
 com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java
@@ -52,7 +52,11 @@ com/kodilla/patterns2/decorator/pizza/PepperDecorator.java
  com.kodilla.patterns2.decorator.pizza.PepperDecorator
 com/kodilla/patterns2/facade/api/ItemDto.java
  com.kodilla.patterns2.facade.api.ItemDto
-com/kodilla/patterns2/aop/calculator/Calculator.java
- com.kodilla.patterns2.aop.calculator.Calculator
+com/kodilla/patterns2/observer/forum/Observer.java
+ com.kodilla.patterns2.observer.forum.Observer
+com/kodilla/patterns2/observer/forum/ForumTopic.java
+ com.kodilla.patterns2.observer.forum.ForumTopic
 com/kodilla/patterns2/aop/calculator/Watcher.java
  com.kodilla.patterns2.aop.calculator.Watcher
+com/kodilla/patterns2/facade/api/OrderFacade.java
+ com.kodilla.patterns2.facade.api.OrderFacade
