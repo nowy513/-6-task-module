@@ -21,7 +21,7 @@ class TaskDaoTestSuite {
     private TaskDao taskDao;
 
     @Autowired
-    private TaskListDao taskListDao;
+    private TaskDao taskListDao;
     private static final String DESCRIPTION = "Test: Learn Hibernate";
 
     @Test
@@ -30,33 +30,33 @@ class TaskDaoTestSuite {
         Task task = new Task(DESCRIPTION, 1);
 
         //When
-        taskDao.save(task);
+        getTaskDao().save(task);
 
         //Then
         int id = task.getId();
-        Optional<Task> readTask = taskDao.findById(id);
+        Optional<Task> readTask = getTaskDao().findById(id);
         assertTrue(readTask.isPresent());
 
         //CleanUp
-        taskDao.deleteById(id);
+        getTaskDao().deleteById(id);
     }
 
     @Test
     void testTaskDaoFindByDuration() {
         //Given
         Task task = new Task(DESCRIPTION, 1);
-        taskDao.save(task);
+        getTaskDao().save(task);
         int duration = task.getDuration();
 
         //When
-        List<Task> readTasks = taskDao.findByDuration(duration);
+        List<Task> readTasks = getTaskDao().findByDuration(duration);
 
         //Then
         assertEquals(1, readTasks.size());
 
         //CleanUp
         int id = readTasks.get(0).getId();
-        taskDao.deleteById(id);
+        getTaskDao().deleteById(id);
     }
 
     @Test
@@ -66,14 +66,14 @@ class TaskDaoTestSuite {
         task.setTaskFinancialDetails(new TaskFinancialDetails(new BigDecimal(120), false));
 
 //        When
-        taskDao.save(task);
+        getTaskDao().save(task);
         int id = task.getId();
 
 //        Then
         assertNotEquals(0, id);
 
 //        Cleanup
-        taskDao.deleteById(id);
+        getTaskDao().deleteById(id);
     }
 
 
@@ -110,9 +110,9 @@ class TaskDaoTestSuite {
         int id = taskList.getId();
 
         //When
-        List<Task> longTasks = taskDao.retrieveLongTasks();
-        List<Task> shortTasks = taskDao.retrieveShortTasks();
-        List<Task> enoughTimeTasks = taskDao.retrieveTasksWithEnoughTime();
+        List<Task> longTasks = getTaskDao().retrieveLongTasks();
+        List<Task> shortTasks = getTaskDao().retrieveShortTasks();
+        List<Task> enoughTimeTasks = getTaskDao().retrieveTasksWithEnoughTime();
 
         //Then
         try {
@@ -123,5 +123,13 @@ class TaskDaoTestSuite {
             //CleanUp
             taskListDao.deleteById(id);
         }
+    }
+
+    public com.kodilla.hibernate.task.dao.TaskDao getTaskDao() {
+        return taskDao;
+    }
+
+    public void setTaskDao(com.kodilla.hibernate.task.dao.TaskDao taskDao) {
+        this.taskDao = taskDao;
     }
 }

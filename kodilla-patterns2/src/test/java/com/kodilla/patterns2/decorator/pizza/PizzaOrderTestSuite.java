@@ -1,9 +1,5 @@
 package com.kodilla.patterns2.decorator.pizza;
 
-import com.kodilla.patterns2.decorator.taxiportal.BasicTaxiOrder;
-import com.kodilla.patterns2.decorator.taxiportal.ChildSeatDecorator;
-import com.kodilla.patterns2.decorator.taxiportal.MyTaxiNetworkOrderDecorator;
-import com.kodilla.patterns2.decorator.taxiportal.TaxiOrder;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
