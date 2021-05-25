@@ -9,9 +9,10 @@ public class HomeworkTestSuite {
     @Test
     public void testUpdate(){
 //        Given
-        Homeworks firstHomework = new FirstHomewor();
-        Homeworks secondHomework = new SecondHomework();
-        Homeworks thirdHomework = new ThirdHomework();
+        Mentor firstHomework = new FirstHomewor();
+        Mentor secondHomework = new SecondHomework();
+        Mentor thirdHomework = new ThirdHomework();
+
         Student johnSmith = new Student("John Smith");
         Student ivoneEscobar = new Student("Ivone Escobar");
         Student jessiePark = new Student("Jessie Park");
@@ -20,6 +21,7 @@ public class HomeworkTestSuite {
         secondHomework.registerObserver(ivoneEscobar);
         thirdHomework.registerObserver(jessiePark);
 
+//      When
         firstHomework.addHomework("Create interface");
         secondHomework.addHomework("Map and HashMap");
         thirdHomework.addHomework("Terminal");
@@ -27,7 +29,7 @@ public class HomeworkTestSuite {
         firstHomework.acceptHomework(johnSmith);
         secondHomework.acceptHomework(ivoneEscobar);
         thirdHomework.acceptHomework(jessiePark);
-//        When
+
         boolean test1 = firstHomework.isAccepted();
         boolean test2 = secondHomework.isAccepted();
         boolean test3 = thirdHomework.isAccepted();
@@ -35,5 +37,10 @@ public class HomeworkTestSuite {
         assertEquals(test1, true);
         assertEquals(test2, true);
         assertEquals(test3, true);
+
+        assertEquals(2, johnSmith.getUpdateCount());
+        assertEquals(2, ivoneEscobar.getUpdateCount());
+        assertEquals(2, jessiePark.getUpdateCount());
+
     }
 }

@@ -9,7 +9,7 @@ public class Student implements Observer{
     }
 
     @Override
-    public void update(Homeworks homeworks) {
+    public void update(Mentor homeworks) {
         System.out.println(student + ": Homework - Module: " + homeworks.getModule() + "\n" +
                 "(total: " + homeworks.getMessage());
         updateCount++;
