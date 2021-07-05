@@ -1,6 +1,5 @@
 package com.kodilla.jdbc;
 
-import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +14,7 @@ public class DbManager {
         Properties connectionProps = new Properties();
         connectionProps.put("user", "root");
         connectionProps.put("password", "root");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw" +
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/library?serverTimezone=Europe/Warsaw" +
                 "&useSSL=False", connectionProps);
     }
 
@@ -30,8 +29,4 @@ public class DbManager {
         return conn;
     }
 
-    @Test
-    void testSelectUsersAndPosts(){
-
-    }
 }
