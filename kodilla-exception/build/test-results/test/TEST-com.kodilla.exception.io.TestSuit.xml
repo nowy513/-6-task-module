@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="com.kodilla.exception.io.TestSuit" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-07T14:31:08" hostname="DESKTOP-8LN2CGQ" time="0.003">
   <properties/>
   <testcase name="testWithAFoundException()" classname="com.kodilla.exception.io.TestSuit" time="0.002"/>
+=======
+<testsuite name="com.kodilla.exception.io.TestSuit" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-19T13:12:57" hostname="DESKTOP-8LN2CGQ" time="0.002">
+  <properties/>
+  <testcase name="testWithAFoundException()" classname="com.kodilla.exception.io.TestSuit" time="0.001"/>
+>>>>>>> 0730674283b298b9d1c6fa3c10bca3d2c4f2ac7e
   <testcase name="testReadFile()" classname="com.kodilla.exception.io.TestSuit" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -11,19 +11,45 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true" uuid="57add360-e301-4606-92b6-baac9c4ebd7a">
+=======
+    <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true" uuid="206b4b2c-8f5a-4cc1-9242-69a6c9c20707">
+>>>>>>> 0730674283b298b9d1c6fa3c10bca3d2c4f2ac7e
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="@localhost2" uuid="18aee8b4-821c-4910-8e25-7c233ea4ff2c">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+=======
+    <data-source source="LOCAL" name="@localhost [2]" uuid="6daba7d4-dd2c-45c3-b08e-d5f2bd977511">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="library@localhost" uuid="06995e51-2f78-4acd-a616-ec215a20a9e9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/library</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="serverTimezone" value="UTC" />
+      </driver-properties>
+>>>>>>> 0730674283b298b9d1c6fa3c10bca3d2c4f2ac7e
     </data-source>
   </component>
 </project>

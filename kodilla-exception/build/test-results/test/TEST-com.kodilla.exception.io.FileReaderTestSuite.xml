@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-07T14:31:08" hostname="DESKTOP-8LN2CGQ" time="0.027">
   <properties/>
   <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.027"/>
+=======
+<testsuite name="com.kodilla.exception.io.FileReaderTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-19T13:12:57" hostname="DESKTOP-8LN2CGQ" time="0.025">
+  <properties/>
+  <testcase name="testReadFile()" classname="com.kodilla.exception.io.FileReaderTestSuite" time="0.025"/>
+>>>>>>> 0730674283b298b9d1c6fa3c10bca3d2c4f2ac7e
   <system-out><![CDATA[Oh no! Something went wrong! Error:java.nio.file.NoSuchFileException: tego-pliku-nie-ma.txt
 I am gonna be here... always!
 ]]></system-out>
