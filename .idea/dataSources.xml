@@ -11,5 +11,19 @@
         <property name="serverTimezone" value="UTC" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true" uuid="57add360-e301-4606-92b6-baac9c4ebd7a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost2" uuid="18aee8b4-821c-4910-8e25-7c233ea4ff2c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/kodilla_course?serverTimezone=Europe/Warsaw&amp;useSSL=False&amp;allowPublicKeyRetrieval=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

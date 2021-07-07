@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.singleton.LoggerTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-07T14:31:21" hostname="DESKTOP-8LN2CGQ" time="0.001">
+  <properties/>
+  <testcase name="testGetLastLogInstance()" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.001"/>
+  <testcase name="testGetLastLog()" classname="com.kodilla.patterns.singleton.LoggerTestSuite" time="0.0"/>
+  <system-out><![CDATA[Log: [Log 2 is made]
+Log: Log 2 is made
+Log: [log is made]
+Log: log is made
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-01-30T12:10:48" hostname="DESKTOP-8LN2CGQ" time="0.026">
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-13T13:13:15" hostname="DESKTOP-8LN2CGQ" time="0.031">
   <properties/>
-  <testcase name="When we get a normal list, we return even numbers" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.024"/>
+  <testcase name="When we get a normal list, we return even numbers" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.029"/>
   <testcase name="testOddNumbersExterminatorNormalList()" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.001"/>
   <system-out><![CDATA[Test Case: begin
 TEST PUSTEJ LISTY
