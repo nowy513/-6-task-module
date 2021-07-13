@@ -77,7 +77,7 @@ public class CrudAppTestSuite {
     private boolean checkTaskExistsInTrello(String taskName) throws InterruptedException {
         final String TRELLO_URL = "https://trello.com/login";
         boolean result = false;
-        WebDriver driverTrello = WebDriverConfig.getDriver(WebDriverConfig.CHROME);
+        WebDriver driverTrello = WebDriverConfig.getDriver(WebDriverConfig.FIREFOX);
         driverTrello.get(TRELLO_URL);
 
         driverTrello.findElement(By.id("user")).sendKeys("user");
